@@ -1,0 +1,26 @@
+{
+  "name": "rest-api-jwt",
+  "version": "1.0.0",
+  "description": "First app node, express and mongo with authentication JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\""
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongo",
+    "jwt",
+    "app"
+  ],
+  "author": "Manuel M.",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1"
+  }
+}
